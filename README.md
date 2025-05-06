@@ -39,6 +39,10 @@ The API provides authentication, user management, and financial data integration
                                                   └─────────────────┘
 ```
 
+## Process Flow
+
+![Diagram](/img/process-flow.png)
+
 ## Tech Stack
 
 - **Backend**: Node.js, Express.js
