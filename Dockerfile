@@ -9,9 +9,5 @@ RUN npm install --production
 COPY . .
 
 EXPOSE 5000
-
-# Define environment variable file (optional, if mounting .env in docker-compose)
-# ENV NODE_ENV=production
-
 # Start the app
 CMD ["npm", "start"]
